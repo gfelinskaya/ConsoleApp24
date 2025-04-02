@@ -6,5 +6,9 @@
             : base(name, color, side, side)
         {   
         }
+        public override void Visualize()
+        {
+            Console.WriteLine("-");
+        }
     }
 }

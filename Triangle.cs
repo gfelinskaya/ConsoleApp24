@@ -40,5 +40,10 @@
 
             return result;
         }
+
+        public override void Visualize()
+        {
+            Console.WriteLine("*");
+        }
     }
 }

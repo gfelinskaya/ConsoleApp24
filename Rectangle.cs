@@ -21,5 +21,10 @@ class Rectangle : Shape
     {
         return SideA * SideB;
     }
-}
+
+        public override void Visualize()
+        {
+            Console.WriteLine("=");
+        }
+    }
 }
