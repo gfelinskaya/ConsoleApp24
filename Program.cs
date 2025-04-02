@@ -9,11 +9,12 @@ namespace ConsoleApp24
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            var triangle = new Triangle("Трикутник рівносторонній", "Green", TriangleType.Equilateral, 12, 12, 12);
+            var triangle = new Triangle("Трикутник рівносторонній", "Green", TriangleType.Riznostoronniy, 12, 12, 12);
             var rectangle1 = new Rectangle("Прямокутник", "Blue", 20, 45);
             var blackSquare = new Square("Чорний квадрат", "Black", 35);
+            var circle1 = new Circle("Круглий круг", "White", 12);
 
-            Shape[] shapes = [triangle, rectangle1, blackSquare];
+            Shape[] shapes = [triangle, rectangle1, blackSquare, circle1];
 
             for (int i = 0; i < shapes.Length; i++)
             {
@@ -32,6 +33,12 @@ namespace ConsoleApp24
                             Console.ForegroundColor = ConsoleColor.Black;
                         }
                         break;
+                        case "White":
+                        {
+                            Console.BackgroundColor = ConsoleColor.White;
+                            Console.ForegroundColor = ConsoleColor.Black;
+                        }
+                         break;
                 }
                 Console.WriteLine(shapes[i].Name);
                 Console.WriteLine($"Square = {shapes[i].GetSquare()}");

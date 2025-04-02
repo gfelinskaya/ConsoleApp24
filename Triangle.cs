@@ -21,9 +21,10 @@
         {
             var result = (Type) switch
             {
-                TriangleType.Rectangular => 0.5 * SideA * Sides[1],
-                TriangleType.Isosceles => 0.5 * Sides[2],
-                TriangleType.Equilateral => 0.5 * Sides[2]  
+                TriangleType.Priamohutny => Math.Sqrt(GetHalfPerimeter() * (GetHalfPerimeter() - Sides[0]) * (GetHalfPerimeter() - Sides[1]) * (GetHalfPerimeter() - Sides[2])),
+                TriangleType.Rivnostoronniy => Math.Sqrt(GetHalfPerimeter() * Math.Pow(GetHalfPerimeter() - Sides[0], 3)),
+                TriangleType.Rivnobedreniy => Math.Sqrt(GetHalfPerimeter() * Math.Pow(GetHalfPerimeter() - Sides[0], 2) * (GetHalfPerimeter() - Sides[1])),
+                TriangleType.Riznostoronniy => Math.Sqrt(GetHalfPerimeter() * (GetHalfPerimeter() - Sides[0]) * (GetHalfPerimeter() - Sides[1]) * (GetHalfPerimeter() - Sides[2]))
             };
 
             return result;  
@@ -31,13 +32,19 @@
 
         public override double GetPerimeter()
         {
-            var result = (Type) switch
+            double result = (Type) switch
             {
-                TriangleType.Rectangular => 0.5 * Sides[0] * Sides[1],
-                TriangleType.Isosceles => 0.5 * Sides[2],
-                TriangleType.Equilateral => 0.5 * Sides[2]
+                TriangleType.Priamohutny => Sides[0] + Sides[1] + Sides[2],
+                TriangleType.Rivnostoronniy => 3 * Sides[0],
+                TriangleType.Rivnobedreniy => 2 * Sides[0] + Sides[1],
+                TriangleType.Riznostoronniy => Sides[0] + Sides[1] + Sides[2]
             };
 
+            return result;
+        }
+         public double GetHalfPerimeter() 
+        {
+            double result = GetPerimeter () / 2;
             return result;
         }
 
