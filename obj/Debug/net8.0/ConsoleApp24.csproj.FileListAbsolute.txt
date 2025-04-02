@@ -1,0 +1,15 @@
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/bin/Debug/net8.0/ConsoleApp24
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/bin/Debug/net8.0/ConsoleApp24.deps.json
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/bin/Debug/net8.0/ConsoleApp24.runtimeconfig.json
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/bin/Debug/net8.0/ConsoleApp24.dll
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/bin/Debug/net8.0/ConsoleApp24.pdb
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.GeneratedMSBuildEditorConfig.editorconfig
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.AssemblyInfoInputs.cache
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.AssemblyInfo.cs
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.csproj.CoreCompileInputs.cache
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.sourcelink.json
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.dll
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/refint/ConsoleApp24.dll
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.pdb
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ConsoleApp24.genruntimeconfig.cache
+/Users/halyna.felinska/Projects/C#Lessons/figures/ConsoleApp24/obj/Debug/net8.0/ref/ConsoleApp24.dll

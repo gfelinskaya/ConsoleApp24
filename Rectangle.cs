@@ -1,5 +1,5 @@
-﻿namespace ConsoleApp24;
-
+﻿namespace ConsoleApp24
+{
 class Rectangle : Shape
 {
     public double SideA { get; }
@@ -21,4 +21,5 @@ class Rectangle : Shape
     {
         return SideA * SideB;
     }
+}
 }
